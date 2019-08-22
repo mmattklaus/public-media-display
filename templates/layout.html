@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width-device-width">
+	<meta name="description" content="Affordable and Professional Advitisement layout"  >
+	<meta name="keywords" content="Advitisement layout">
+	<meta name="author" content="Nyamsi Kevine">
+	<title>NyamSi AdvertiseMent | Welcome  </title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	  <header>
+	  	<div class="container">
+	  		<div id="branding">
+	  			<h1><span class="highlight">NyamSi</span> AdvertiseMent</h1>
+	  		</div>
+	  		<nav>
+	  			<ul>
+	  				<li class="{% if active_link == 'home' %}current{% endif %}"><a href="/">Home</a></li>
+	  				<li class="{% if active_link == 'about' %}current{% endif %}"><a href="about">About</a></li>
+	  				<li class="{% if active_link == 'services' %}current{% endif %}"><a href="services">Services</a></li>
+	  			</ul>
+	  		</nav>
+	  	</div>
+	  </header>
+	  {% block content %}{% endblock %}
+	  <footer>
+	  	<p>NyamSi AdvertiseMent, copyright @copy; 2019</p>
+	  </footer>
+
+</body>
+</html>

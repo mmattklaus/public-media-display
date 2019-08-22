@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block content %}
+<section id="showcase">
+    <div class="container">
+        <h1>Affordable Proffesional Digital Signage System</h1>
+        <p>Advertise Your Product In The Most Affordable And Reliable Way Possible</p>
+
+    </div>
+</section>
+<section id="newsletter">
+    <div class="container">
+        <h1>Subcribe To Our Newsletter</h1>
+        <form>
+            <input type="email" placeholder="Enter email" name="email">
+            <button type="submit" class="button_1">Subscribe</button>
+        </form>
+    </div>
+</section>
+<section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="{{ url_for('static', filename='images/full Package.png') }}">
+            <h3>Full Package</h3>
+            <p>From The Design Of The Advertisement To Its Publishment</p>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='images/published.jpg') }}">
+            <h3>Publishement</h3>
+            <p>We Make Sure Your Product Is Been Expose To The Right Persons At The Right Time</p>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='images/consultancy.jpg') }}">
+            <h3>ConSultAncy</h3>
+            <p>We Advice On How To Make Your Products Future Outstanding</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
