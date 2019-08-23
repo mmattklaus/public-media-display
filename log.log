@@ -420,3 +420,389 @@ INFO:werkzeug:192.168.1.104 - - [22/Aug/2019 09:01:20] "POST /upload HTTP/1.1" 4
 INFO:werkzeug:192.168.1.104 - - [22/Aug/2019 09:01:25] "POST /upload HTTP/1.1" 302 -
 INFO:werkzeug:192.168.1.104 - - [22/Aug/2019 09:01:25] "GET /services HTTP/1.1" 200 -
 INFO:werkzeug:192.168.1.104 - - [22/Aug/2019 09:01:25] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:41] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:41] "GET /static/images/published.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:41] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:41] "GET /static/images/consultancy.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:42] "GET /static/images/9.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:46] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:39:47] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:07] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:07] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:07] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 65445
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:29] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 65445
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:29] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:40:30] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:48:07] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:48:07] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:48:15] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 07:48:15] "GET /static/images/full%20Package.png HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/home/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:12:38] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:12:38] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:12:57] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:12:57] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:12:57] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:08] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:08] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:09] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:09] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:11] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:11] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:23] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:13:23] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:28:15] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:28:15] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/home/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:29:33] "POST /upload HTTP/1.1" 400 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:29:37] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:29:38] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:30:00] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:30:25] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:30:25] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:30:56] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:30:56] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:31:09] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:31:09] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:31:20] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:31:20] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:33:44] "POST /upload HTTP/1.1" 400 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:33:44] "POST /upload HTTP/1.1" 400 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:33:50] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:33:50] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:34:44] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:34:44] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:34:56] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:34:56] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:07] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:07] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:21] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:21] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:42] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:43] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:51] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:37:51] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:38:18] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:38:18] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:38:30] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:38:30] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:38:30] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:40:04] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:40:04] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:05] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:05] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:15] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:15] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:33] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:33] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:48] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 08:40:48] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 41 4096
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:41:13] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.101 - - [23/Aug/2019 08:41:13] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:26:16] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:26:16] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:26:19] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:26:28] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:26:28] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 165-495-089
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:27:17] "GET /upload HTTP/1.1" 405 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:27:24] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:27:25] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:27:32] "POST /upload HTTP/1.1" 302 -
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:27:32] "GET /services HTTP/1.1" 200 -
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:28:00] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:28:00] "GET /services HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:28:15] "POST /upload HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.104 - - [23/Aug/2019 09:28:15] "GET /services HTTP/1.1" 200 -

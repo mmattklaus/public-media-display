@@ -12,6 +12,7 @@ if sys.version_info[0] == 2:  # the tkinter library changed it's name from Pytho
 else:
     import tkinter
 from PIL import Image, ImageTk
+from subprocess import Popen
 
 app = Flask(__name__)
 
@@ -62,11 +63,11 @@ def upload_file():
         media_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(media_path)
         flash('Upload complete.')
-        t = threading.Thread(target=play_content, args=(media_path,))
-        t.start()
-        # process = multiprocessing.Process(target=play_content, args=(media_path, ))
-        #temp_process = process
-        #process.start()
+        # t = threading.Thread(target=play_content, args=(media_path,))
+        # t.start()
+        process = multiprocessing.Process(target=play_content, args=(media_path, ))
+        temp_process = process
+        process.start()
         # play_content(media_path)
         return redirect(url_for('service'))
     else:
@@ -81,28 +82,41 @@ def upload_file():
 
 def play_content(media_path):
     global current_process
-    thread = threading.currentThread()
+    global temp_process
+    # thread = threading.currentThread()
     if current_process is not None:
-        print(current_process.getName(), "----Name...")
-        terminate_thread(current_process)
-        print(current_process.getName(), "----Name...")
-    current_process = thread
+        current_process.terminate(current_process)
+    current_process = temp_process
     # 1. Close all instances of player
     # 2. Check media type
     # 3. Open media in required program
     if allowed_file(media_path, ALLOWED_IMAGE_EXT):
         # Open image display
+        os.system("killall omxplayer.bin")
         pilImage = Image.open(media_path)
         showPIL(pilImage)
     elif allowed_file(media_path, ALLOWED_VIDEO_EXT):
         # Open video in player
-        Instance = vlc.Instance('--fullscreen')
-        player = Instance.media_player_new()
-        Media = Instance.media_new(media_path)
-        player.set_media(Media)
-        player.play()
+        #Instance = vlc.Instance('--fullscreen')
+        #player = Instance.media_player_new()
+        #Media = Instance.media_new(media_path)
+        #player.set_media(Media)
+        #player.play()
+        playVideo(media_path)
     pass
 
+def playVideo(path):
+    os.system("killall omxplayer.bin")
+    omxc = Popen(["omxplayer", "-b", path, "--loop"])
+    return
+
+def showImage():
+    try:
+        os.system("killall feh")
+    except:
+        pass
+    image = Popen(["feh", path, "--hide-pointer", "--fullscreen"])
+    
 def showPIL(pilImage):
     root = tkinter.Tk()
     w, h = root.winfo_screenwidth(), root.winfo_screenheight()
